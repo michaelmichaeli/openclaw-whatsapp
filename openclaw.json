@@ -1,0 +1,31 @@
+{
+  "$schema": "https://docs.openclaw.ai/openclaw.json",
+  "channels": {
+    "whatsapp": {
+      "enabled": false
+    },
+    "telegram": {
+      "enabled": false
+    }
+  },
+  "gateway": {
+    "auth": {
+      "mode": "token",
+      "token": "sk-openclaw-2947b9cb5aef4cd30a72100e9013c62ee4884b1744e7514b8daadf442397a4d8"
+    },
+    "controlUi": {
+      "dangerouslyAllowHostHeaderOriginFallback": true
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "openai/opencode"
+      }
+    }
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.4.8",
+    "lastTouchedAt": "2026-04-08T10:58:00.000Z"
+  }
+}

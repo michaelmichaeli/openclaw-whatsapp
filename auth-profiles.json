@@ -1,0 +1,11 @@
+{
+  "anthropic": {
+    "apiKey": "sk-ant-api03-YOUR_ANTHROPIC_KEY_HERE"
+  },
+  "openai": {
+    "apiKey": "dummy-key-for-fallback"
+  },
+  "opencode": {
+    "apiKey": "sk-YOUR_OPENCODE_KEY_HERE"
+  }
+}
