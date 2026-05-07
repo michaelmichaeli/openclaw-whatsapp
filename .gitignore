@@ -16,3 +16,8 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Calendar credentials (stored locally in ~/.calendar_creator/)
+# Never commit OAuth tokens or app passwords
+google_token.json
+google_client_secrets.json
